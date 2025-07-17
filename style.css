@@ -38,7 +38,7 @@
 }
 .banner-description{
     text-align: center;
-    margin-bottom: 65px;    
+    margin-bottom: 60px;    
 }
 .banner-description h2{
     font-weight: 600;
@@ -54,4 +54,18 @@
     font-size: 15px;
     border-radius: 7px;
     background-color: rgba(255, 144, 14, 1);
+}
+.banner-img img{
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 576px) {
+    .nav-area{
+        flex-direction: column;
+    }
+    .banner-area{
+        flex-direction: column;
+    }
+
+           
 }
