@@ -12,11 +12,19 @@
     display: flex;
 }
 /* nav area styles */
-.nav-area{
+.nav-area, .banner-area{
     max-width: 1440px;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+}
+.nav-area h3{
+    font-size: 25px;
+    background-image: url(images/banner.png);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .nav-item{
     list-style: none;
@@ -27,4 +35,23 @@
     color: rgba(66, 66, 66, 1);
     font-size: 16px;
     font-weight: 500;
+}
+.banner-description{
+    text-align: center;
+    margin-bottom: 65px;    
+}
+.banner-description h2{
+    font-weight: 600;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+/* button style */
+.btn-primary{
+    padding: 16px 25px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 7px;
+    background-color: rgba(255, 144, 14, 1);
 }
